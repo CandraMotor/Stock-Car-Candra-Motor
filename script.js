@@ -70,8 +70,19 @@ const cars = [
 		brand: "Suzuki",
 		price: 115000000,
 		image: "https://i.ibb.co.com/PGJjzfrw/Whats-App-Image-2026-02-20-at-13-25-37-1.jpg"
+	},
+	{
+		name: "Daihatsu Terios 2013",
+		Brand: "Daihatsu",
+		price: 113000000,
+		image: "https://i.ibb.co.com/2Qb5w1B/Whats-App-Image-2026-02-20-at-13-25-38-1.jpg"
+	},
+	{
+		name: "Honda HRV 2021 SE A/T",
+		brand: "Honda",
+		price: 230000000,
+		image:"https://i.ibb.co.com/M5MPfCnT/Whats-App-Image-2026-02-20-at-13-25-38.jpg"
 	}
-			
 ];
 const carList = document.getElementById("carList");
 const searchInput = document.getElementById("search");
@@ -117,5 +128,6 @@ function filterCars() {
 }
 
 displayCars(cars);
+
 
 
