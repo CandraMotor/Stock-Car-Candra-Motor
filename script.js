@@ -82,7 +82,25 @@ const cars = [
 		brand: "Honda",
 		price: 230000000,
 		image:"https://i.ibb.co.com/M5MPfCnT/Whats-App-Image-2026-02-20-at-13-25-38.jpg"
-	}
+	},
+	{
+		name: "Daihatsu Terios R 2022 M/T",
+		brand: "Daihatsu",
+		price: 217000000,
+		image: "https://i.ibb.co.com/8gQknYRF/Whats-App-Image-2026-02-20-at-13-25-32.jpg"
+	},
+	{
+		name: "Avanza G FaceLift 2019 M/T",
+		brand: "Toyota",
+		price: 175000000,
+		image: "https://i.ibb.co.com/3mBhtMjs/Whats-App-Image-2026-02-20-at-13-25-35-1.jpg"
+	},
+	{
+		name: "Honda Mobilio E cvt 2015 A/T",
+		brand: "Honda",
+		price: 123456788,
+		image: "https://i.ibb.co.com/XrWCJ3s3/Whats-App-Image-2026-02-20-at-13-25-39-1.jpg"
+
 ];
 const carList = document.getElementById("carList");
 const searchInput = document.getElementById("search");
@@ -128,6 +146,7 @@ function filterCars() {
 }
 
 displayCars(cars);
+
 
 
 
