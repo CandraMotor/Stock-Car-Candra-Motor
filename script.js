@@ -100,7 +100,7 @@ const cars = [
 		brand: "Honda",
 		price: 123456788,
 		image: "https://i.ibb.co.com/XrWCJ3s3/Whats-App-Image-2026-02-20-at-13-25-39-1.jpg"
-
+	}
 ];
 const carList = document.getElementById("carList");
 const searchInput = document.getElementById("search");
@@ -146,6 +146,7 @@ function filterCars() {
 }
 
 displayCars(cars);
+
 
 
 
