@@ -26,7 +26,7 @@ const cars = [
 	{	
 		name: "Toyota Rush 2011 type G",
 		brand: "Toyota",
-		price: 12500000,
+		price: 125000000,
 		image: "https://i.ibb.co.com/ymsD9Fvq/Whats-App-Image-2026-02-20-at-13-25-39.jpg"
 	},
 	{
@@ -146,6 +146,7 @@ function filterCars() {
 }
 
 displayCars(cars);
+
 
 
 
