@@ -18,10 +18,10 @@ const cars = [
         image: "https://i.ibb.co.com/Gr3tH0k/Whats-App-Image-2026-02-20-at-13-25-40-1.jpg"
     },
 	{
-        name: "Mitsubishi Xpander 2018 type exide M/T",
+        name: "Mitsubishi Xpander 2018 type exceed M/T",
         brand: "Mitsubishi",
         price: 240000000,
-        image: "https://i.ibb.co.com/XrWCJ3s3/Whats-App-Image-2026-02-20-at-13-25-39-1.jpg"
+        image: "<a href="https://i.ibb.co.com/7N4gFQ4Y/IMG-20260220-WA0123.jpg"
     },
 	{	
 		name: "Toyota Rush 2011 type G",
@@ -146,6 +146,7 @@ function filterCars() {
 }
 
 displayCars(cars);
+
 
 
 
