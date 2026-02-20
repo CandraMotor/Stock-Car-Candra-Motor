@@ -52,7 +52,26 @@ const cars = [
 		brand: "Honda",
 		price: 134000000,
 		image: "https://i.ibb.co.com/hxn07kYH/Whats-App-Image-2026-02-20-at-13-25-34-1.jpg"
+	},
+	{
+		name: "Honda Freed 2013 Type PSD A/T",
+		brand: "Honda",
+		price: 172000000,
+		image: "https://i.ibb.co.com/B2B5TMGB/Whats-App-Image-2026-02-20-at-13-25-39-2.jpg"
+	},
+	{
+		name: "Suzuki Ignis 2017 A/T",
+		brand: "Suzuki",
+		price: 118000000,
+		image: "https://i.ibb.co.com/bM5V88dq/Whats-App-Image-2026-02-20-at-13-25-38-2.jpg"
+	},
+	{
+		name: "Suzuki Ertiga 2017 Gl M/T",
+		brand: "Suzuki",
+		price: 115000000,
+		image: "https://i.ibb.co.com/PGJjzfrw/Whats-App-Image-2026-02-20-at-13-25-37-1.jpg"
 	}
+			
 ];
 const carList = document.getElementById("carList");
 const searchInput = document.getElementById("search");
@@ -98,3 +117,4 @@ function filterCars() {
 }
 
 displayCars(cars);
+
