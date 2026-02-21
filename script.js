@@ -2,7 +2,7 @@ const cars = [
     {
         name: "Toyota Yaris 2011 Type E A/T",
         brand: "Toyota",
-        price: 11900000,
+        price: 119000000,
         image: "https://i.ibb.co.com/cSGjXFpG/Whats-App-Image-2026-02-20-at-13-25-34.jpg"
     },
     {
@@ -146,6 +146,7 @@ function filterCars() {
 }
 
 displayCars(cars);
+
 
 
 
