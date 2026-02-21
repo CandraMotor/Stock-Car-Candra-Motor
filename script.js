@@ -119,7 +119,7 @@ function displayCars(data) {
                 <div class="content">
                     <h3>${car.name}</h3>
                     <div class="price">${formatRupiah(car.price)}</div>
-                    <a class="btn" href="https://wa.me/6281234567890" target="_blank">
+                    <a class="btn" href="https://wa.me/62885223866639" target="_blank">
                         Hubungi Penjual
                     </a>
                 </div>
@@ -146,6 +146,7 @@ function filterCars() {
 }
 
 displayCars(cars);
+
 
 
 
