@@ -98,7 +98,7 @@ const cars = [
 	{
 		name: "Honda Mobilio E cvt 2015 A/T",
 		brand: "Honda",
-		price: 123456788,
+		price: 132000000,
 		image: "https://i.ibb.co.com/XrWCJ3s3/Whats-App-Image-2026-02-20-at-13-25-39-1.jpg"
 	}
 ];
@@ -146,6 +146,7 @@ function filterCars() {
 }
 
 displayCars(cars);
+
 
 
 
