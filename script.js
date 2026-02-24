@@ -6,7 +6,7 @@ const cars = [
         image: "https://i.ibb.co.com/cSGjXFpG/Whats-App-Image-2026-02-20-at-13-25-34.jpg"
     },
     {
-        name: "Honda Brio 2017 A/T",
+        name: "Honda Brio E Satya 2017 A/T",
         brand: "Honda",
         price: 124000000,
         image: "https://i.ibb.co.com/8gqqcXX6/Whats-App-Image-2026-02-20-at-13-25-28.jpg"
@@ -50,7 +50,7 @@ const cars = [
 	{
 		name: "Brio E satya 2021 M/T",
 		brand: "Honda",
-		price: 134000000,
+		price: 138000000,
 		image: "https://i.ibb.co.com/hxn07kYH/Whats-App-Image-2026-02-20-at-13-25-34-1.jpg"
 	},
 	{
@@ -146,6 +146,7 @@ function filterCars() {
 }
 
 displayCars(cars);
+
 
 
 
